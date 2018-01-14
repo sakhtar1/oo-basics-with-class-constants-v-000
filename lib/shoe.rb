@@ -1,7 +1,7 @@
 class Shoe
 
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand, :brands
+  attr_reader :brand
   BRANDS = []
 
 #Shoes::BRANDS.size simply means that inside CLass SHoes array BRANds give me
