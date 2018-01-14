@@ -8,6 +8,7 @@ class Shoe
 #the size of that array or length and it will return to you an integer
   def initialize (brand)
     @brand = brand
+    BRANDS << brand
   end
 
   def cobble
